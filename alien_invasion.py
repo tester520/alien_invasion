@@ -17,10 +17,6 @@ class AlienInvasion:
         self.settings.screen_height = self.screen.get_rect().height
         pygame.display.set_caption("Alien Invasion")
 
-        # self.screen = pygame.display.set_mode(
-        #     (self.settings.screen_width, self.settings.screen_height))
-        # pygame.display.set_caption("Alien Invasion")
-
         self.ship = Ship(self)
 
         # 设置背景色。
